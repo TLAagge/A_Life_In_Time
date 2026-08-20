@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2027 Gallery - A Life In Time</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body data-year-page="2027">
+<nav>
+    <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Index.html#timeline">Timeline</a></li>
+        <li><a href="2027.html">2027</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section class="hero">
+        <h1 id="year-title">2027 Gallery</h1>
+        <p>Photos captured in this year.</p>
+    </section>
+
+    <section class="section-block">
+        <p id="year-empty" class="year-empty" style="display:none;">No photos added for this year yet.</p>
+        <div id="year-gallery" class="gallery"></div>
+    </section>
+</main>
+
+<div id="lightbox" class="lightbox" aria-hidden="true">
+    <span class="close" aria-label="Close lightbox">&times;</span>
+    <img id="lightbox-content" src="" alt="Expanded photo">
+    <div class="image-info">
+        <p id="photo-location"></p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; A Life In Time</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Life In Time</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="home-page">
+<nav>
+    <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section class="hero">
+        <h1>A Life In Time</h1>
+        <p>Pick a year and step into its memories.</p>
+    </section>
+
+    <section id="timeline" class="section-block">
+        <h2>Year Timeline</h2>
+        <div id="timeline-track" class="timeline" aria-label="Photo timeline by year"></div>
+    </section>
+</main>
+
+<div id="lightbox" class="lightbox" aria-hidden="true">
+    <span class="close" aria-label="Close lightbox">&times;</span>
+    <img id="lightbox-content" src="" alt="Expanded photo">
+    <div class="image-info">
+        <p id="photo-location"></p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; A Life In Time - My hobby project to save my memories in life in a meaningful way, and in a way I can customize myself.</p>
+</footer>
+</body>
+</html>
